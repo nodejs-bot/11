@@ -1,0 +1,17 @@
+{
+    "name": "windows",
+    "version": "1.0.0",
+    "main": "client.js",
+    "scripts": {
+        "start": "node client.js",
+        "test": "node test-client.js"
+    },
+    "dependencies": {
+        "ws": "^8.18.2"
+    },
+    "optionalDependencies": {
+        "robotjs": "^0.6.0",
+        "screenshot-desktop": "^1.15.1",
+        "sharp": "^0.32.6"
+    }
+}
